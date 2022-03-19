@@ -1,0 +1,263 @@
+
+@media(max-width:780px){
+    *{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body{
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+     gap:1em;
+}
+.tittle{
+    color:white;
+    font-size: 4em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.search{
+    font-style: italic;
+    background-color: black;
+    color:white;
+    border-radius: .5em;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.menu{
+    background-color: black;
+    width: 100%;
+    
+    
+}
+
+.nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100%;
+    margin: 1em;
+    justify-content: center;
+    
+}
+
+.navitem{
+    padding: 1em;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+
+.lorems{
+    width: 100%;
+    padding: 1em;
+}
+
+.parrafo {
+    text-align: left;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+}
+
+
+
+.card[type="red"]{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        
+    }
+
+.card[type="green"]{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+.card[type="blue"]{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.lt{
+    text-align: left;
+    margin: 0px 0 -10px 0px ;
+    margin-left: 1em;
+    color: white;
+   
+}
+
+.textl{
+    text-align: justify;
+    margin: 10px 24px 0 24px  ;
+    color: white;
+}
+
+.yn{
+    background-color: black;
+    color:white;
+    margin: -23px 0 ;
+    height: 2em;
+    
+}
+
+.pyn{
+    text-align: center;
+    font-size: 20px;
+}
+
+}
+@media (min-width:780px) {
+    *{
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    html, body{
+        margin: 0;
+    }
+.header{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+     gap:1em;
+}
+.tittle{
+    color:white;
+    font-size: 7em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    font-style: italic;
+    background-color: black;
+    color:white;
+    border-radius: .5em;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.menu{
+    background-color: black;
+    width: 10%;
+
+    
+}
+
+.nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100%;
+    margin: 1em;
+}
+
+.navitem{
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+
+.lorems{
+    width: 90%;
+    padding: 1em;
+}
+
+.parrafo {
+    text-align: left;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    width: 100%;
+}
+
+
+
+.card[type="red"]{
+        display: flex;
+        flex-direction: column;
+        border-left:solid red 1em;
+        
+    }
+
+.card[type="green"]{
+    display: flex;
+    flex-direction: column;
+    border-left:solid green 1em;
+}
+.card[type="blue"]{
+    display: flex;
+    flex-direction: column;
+    border-left:solid blue 1em;
+}
+
+.lt{
+    text-align: left;
+    margin: 0px 0 -10px 0px ;
+    margin-left: 1em;
+   
+}
+
+.textl{
+    text-align: justify;
+    margin: 10px 24px 0 24px  ;
+}
+
+.yn{
+    background-color: black;
+    color:white;
+    margin: -23px 0 ;
+    height: 2em;
+    
+}
+
+.pyn{
+    text-align: center;
+    font-size: 20px;
+}
+
+}
